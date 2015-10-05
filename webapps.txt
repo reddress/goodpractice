@@ -4,4 +4,12 @@ SQL injection (use prepared statements)
 XSS (escape HTML)
 CSRF (use hidden tokens)
 
-validate and sanitize user input
+sanitize input
+validate data
+escape output
+(Modern PHP, Lockhart, O'Reilly)
+
+Use utf8mb4 charset in MySQL DSN
+and make sure the tables are also utf8mb4
+  new \PDO('mysql:host=your-hostname;dbname=your-db;charset=utf8mb4' ...
+https://phpbestpractices.org/
