@@ -3,3 +3,5 @@ Prevent these attacks:
 SQL injection (use prepared statements)
 XSS (escape HTML)
 CSRF (use hidden tokens)
+
+validate and sanitize user input
